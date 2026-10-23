@@ -2,7 +2,7 @@
 
 ## Application
 
-[Open the application](http://app-url.invalid)
+[Open the application](http://100.55.8.51)
 
 **Running:** `vijaygodson/demo-website:latest`
 
@@ -33,7 +33,7 @@ Or from a terminal:
 
     aws s3 cp s3://vijay-backstage-tfstate-v2/ec2-instances/vijay3/vijay3.pem ./vijay3.pem
     chmod 400 vijay3.pem
-    ssh -i vijay3.pem ec2-user@__INSTANCE_IP__
+    ssh -i vijay3.pem ec2-user@100.55.8.51
 
 Generate a one-hour direct-download link:
 
