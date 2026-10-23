@@ -1,0 +1,5 @@
+instance_name = "vijay3"
+instance_type = "t3.micro"
+region = "us-east-1"
+owner = "development"
+docker_image = "vijaygodson/demo-website:latest"
